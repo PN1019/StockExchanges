@@ -2,7 +2,13 @@
 Data on companies listed on the stock exchanges NASDAQ, NYSE, and AMEX with information on company name, stock symbol, last market capitalization and price, sector or industry group, and IPO year.
 
 
-## Practicing Financial Data Management Techniques 
+## Objective 
+
+- Practicing Financial Data Management Techniques
+- Application of EDA 
+- Remote(Web) Data Access Techniques
+- Dive into PlotlyJs
+- Understanding the Implementation of Financial Data Pipeline Process
 
 
 
