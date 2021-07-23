@@ -8,7 +8,10 @@ Data on companies listed on the stock exchanges NASDAQ, NYSE, and AMEX with info
 - Application of EDA 
 - Remote(Web) Data Access Techniques
 - Dive into PlotlyJs
-- Understanding the Implementation of Financial Data Pipeline Process
+- Understanding the Implementation of Financial Data & ETL Pipeline Process
+- Understanding the Implementation of Docker Containerization
+- Understanding the WorkFlow Management Dynamics to programmatically author, schedule and monitor them via the built-in Apache AirFlow UI. 
+
 
 
 
@@ -43,6 +46,9 @@ Data on companies listed on the stock exchanges NASDAQ, NYSE, and AMEX with info
 - Python 3.6.3
 - Collab Notebook
 - Plotly JS
+- Apache Airflow 
+- Docker
+- 
 
 
 <a id='Design'></a>
@@ -72,7 +78,8 @@ Data on companies listed on the stock exchanges NASDAQ, NYSE, and AMEX with info
 -  Cleaning includes merging individual pieces of data according to the rules of tidy data.
 
 
-- 
+- Infact, while I was building an app to visualize stock prices and stock stats with PlotlyJs, I realized that every time I wanted data to be updated, I had to re-run the entire code manually. This process takes a very long time when you need to extract, manipulate and make available data for hundreds of stock tickers. I knew that if I wanted to scale up my project, I needed a tool to orchestrate the repetitive tasks behind the scenes while I was focused on building new interesting features.
+I explored various options to automate my ETL Pipeline and eventually started to combine Python and Airflow to create an automated ETL pipeline.
 
 <a id='Conclusions'></a>
 
