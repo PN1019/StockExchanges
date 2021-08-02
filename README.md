@@ -48,7 +48,6 @@ Data on companies listed on the stock exchanges NASDAQ, NYSE, and AMEX with info
 - Plotly JS
 - Apache Airflow 
 - Docker
-- 
 
 
 <a id='Design'></a>
@@ -57,26 +56,6 @@ Data on companies listed on the stock exchanges NASDAQ, NYSE, and AMEX with info
 
 
 ![](https://img.shields.io/badge/language-Python-orange.svg)
-
-
-- **_1 Data wrangling_**, which consists of:
-
-    - Gathering data
-    - Assessing data
-    - Cleaning data
-
-
-- **_2 Storing, analyzing, and visualizing wrangled data_**
-
-
-- Reporting on 1) the data wrangling efforts and 2) the data analyses and visualizations
-
-
-**_It is also worth noting:_**
-
-
--  Cleaning includes merging individual pieces of data according to the rules of tidy data.
-
 
 - Infact, while I was building an app to visualize stock prices and stock stats with PlotlyJs, I realized that every time I wanted data to be updated, I had to re-run the entire code manually. This process takes a very long time when you need to extract, manipulate and make available data for hundreds of stock tickers. I knew that if I wanted to scale up my project, I needed a tool to orchestrate the repetitive tasks behind the scenes while I was focused on building new interesting features.
 I explored various options to automate my ETL Pipeline and eventually started to combine Python and Airflow to create an automated ETL pipeline.
